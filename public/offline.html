@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAPTURE - Offline</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: #fde047;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background: white;
+            border: 4px solid black;
+            box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+            padding: 40px;
+            text-align: center;
+            max-width: 400px;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            margin: 0 0 20px 0;
+            transform: rotate(-1deg);
+        }
+        p {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">📱</div>
+        <h1>CAPTURE</h1>
+        <p>You're offline, but your notes are still here!</p>
+        <p>Your temporal notes will sync when you're back online.</p>
+        <button onclick="window.location.reload()" style="
+            background: #3b82f6;
+            color: white;
+            border: 4px solid black;
+            padding: 12px 24px;
+            font-weight: bold;
+            box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+            cursor: pointer;
+        ">TRY AGAIN</button>
+    </div>
+</body>
+</html>
