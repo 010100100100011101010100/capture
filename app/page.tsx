@@ -725,15 +725,14 @@ export default function Component() {
                 <div className="w-6 h-6 sm:w-8 sm:h-8 bg-black border-2 border-black transform rotate-45"></div>
                 <div>
                   <p className="font-black text-black text-xs sm:text-sm">
-                    CRAFTED BY <span className="text-sm sm:text-lg">SHERA</span>
+                    CRAFTED BY <span className="text-sm sm:text-lg">Vision</span>
                   </p>
-                  <p className="font-bold text-black/70 text-xs">a.k.a Rasesh</p>
                 </div>
               </div>
 
               <div className="flex items-center gap-2 sm:gap-4">
                 <a
-                  href="https://x.com/raseshGaut_BTC"
+                  href="https://x.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-blue-400 hover:bg-blue-500 text-black font-black border-2 sm:border-3 border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] px-2 py-1 sm:px-3 sm:py-2 transition-all hover:translate-x-[-1px] hover:translate-y-[-1px] hover:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] active:translate-x-[1px] active:translate-y-[1px] active:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)]"
@@ -747,7 +746,7 @@ export default function Component() {
                 </a>
 
                 <a
-                  href="https://github.com/010100100100011101010100"
+                  href="https://github.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-gray-400 hover:bg-gray-500 text-black font-black border-2 sm:border-3 border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] px-2 py-1 sm:px-3 sm:py-2 transition-all hover:translate-x-[-1px] hover:translate-y-[-1px] hover:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] active:translate-x-[1px] active:translate-y-[1px] active:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)]"
